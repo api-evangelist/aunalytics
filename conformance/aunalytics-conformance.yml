@@ -1,0 +1,24 @@
+generated: '2026-09-26'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://www.aunalytics.com/managed-security/
+sources:
+- https://www.aunalytics.com/managed-security/
+standards:
+- id: soc2
+  conforms: true
+  evidence: Aunalytics holds SOC 2 Type 2, PCI DSS 4.0, HIPAA, and CMMC Level 2 attestations, and practices that same rigor within CMMC managed
+    services work for Defense Industrial Base clients.
+- id: pci-dss
+  conforms: true
+  evidence: Aunalytics holds SOC 2 Type 2, PCI DSS 4.0, HIPAA, and CMMC Level 2 attestations, and practices that same rigor within CMMC managed
+    services work for Defense Industrial Base clients.
+- id: hipaa
+  conforms: true
+  evidence: Aunalytics holds SOC 2 Type 2, PCI DSS 4.0, HIPAA, and CMMC Level 2 attestations, and practices that same rigor within CMMC managed
+    services work for Defense Industrial Base clients.
+- id: ccpa
+  conforms: true
+  evidence: Aunalytics holds SOC 2 Type 2, PCI DSS 4.0, HIPAA, and CMMC Level 2 attestations, and practices that same rigor within CMMC managed
+    services work for Defense Industrial Base clients.
+docs: https://www.aunalytics.com/managed-security/

@@ -1,23 +1,84 @@
 aid: aunalytics
+
 name: Aunalytics
-description: 'Aunalytics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Aunalytics provides AI agents and AI‑powered solutions tailored for financial institutions and IT departments. Their platform offers
+  an intelligent data warehouse, analytics services, and a suite of AI tools that help banks, credit unions, healthcare providers, and government
+  agencies streamline data processing, improve decision‑making, and automate routine tasks. By combining secure infrastructure with proprietary
+  data models, Aunalytics enables organizations to make data AI‑ready and put it to work across a range of enterprise cloud services, backup,
+  disaster recovery, and managed security solutions.
+
 url: https://raw.githubusercontent.com/api-evangelist/aunalytics/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages are rendered via JavaScript, preventing machine‑readable spec discovery.
+  evidence:
+  - url: https://www.aunalytics.com/portals/
+    status: 200
+  checked: 2026-09-26
+
 tags:
 - Company
-apis: []
+- AI
+- Financial Services
+- Data Analytics
+- Cloud
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Conformance
+  url: conformance/aunalytics-conformance.yml
+- type: WellKnown
+  url: well-known/aunalytics-well-known.yml
+- type: Hosts
+  url: hosts/aunalytics-hosts.yml
+- type: Vendors
+  url: vendors/aunalytics-vendors.yml
+- type: StatusPage
+  url: https://status.aunalytics.com/
+- type: Newsroom
+  url: https://www.aunalytics.com/resources/news/
+- type: Blog
+  url: https://www.aunalytics.com/category/blog/
+- type: DomainSecurity
+  url: security/aunalytics-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.aunalytics.com/
+- type: Documentation
+  url: https://www.aunalytics.com/resources/
+- type: Support
+  url: https://www.aunalytics.com/contact/
+- type: TermsOfService
+  url: https://www.aunalytics.com/terms-of-use/
+
+apis:
+- name: Aunalytics API
+  description: Data platform API for Aunalytics
+  humanURL: https://www.aunalytics.com/portals/
+  aid: aunalytics:aunalytics-api
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
