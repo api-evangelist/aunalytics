@@ -21,7 +21,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-26'
 
-modified: '2026-09-26'
+modified: '2026-10-06'
 
 x-coverage:
   state: unreadable
@@ -52,6 +52,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://www.aunalytics.com/feed/
+  type: BlogRSS
 - type: Conformance
   url: conformance/aunalytics-conformance.yml
 - type: WellKnown
